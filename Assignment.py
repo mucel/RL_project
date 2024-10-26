@@ -104,7 +104,7 @@ def q_learning(env, max_episodes, alpha, gamma, epsilon):
                 print(f"Episode {episode + 1} finished in {step} steps.")
                 break
 
-        epsilon = max(0.01, epsilon * 0.99)
+        # epsilon = max(0.1, epsilon * 0.99)
 
         episodes += 1
 
