@@ -135,7 +135,7 @@ if __name__ == "__main__":
     max_episodes = 1000 
     alpha = 0.5
     gamma = 0.95
-    epsilon = 0.7
+    epsilon = 0.9
 
     # Run Q-learning and output the trained Q-table
     q_table = q_learning(env, max_episodes, alpha, gamma, epsilon)
